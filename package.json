@@ -1,0 +1,15 @@
+{
+  "name": "vending-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "Hongsoon Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^24.9.0"
+  }
+}
