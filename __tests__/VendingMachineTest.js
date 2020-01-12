@@ -30,6 +30,6 @@ describe('Vending machine', () => {
         });
     });
     it('should return error if there is no such product', () => {
-        expect(vendingMachine.buyProduct("Fanta")).toMatch("Error");
+        expect(vendingMachine.buyProduct("Coke", 1.2)).toMatch("Error");
     })
 })
