@@ -31,5 +31,8 @@ describe('Vending machine', () => {
     });
     it('should return error if there is no such product', () => {
         expect(vendingMachine.buyProduct("Coke", 1, 687)).toMatch("Error");
-    })
+    });
+    it('should add units to product', () => {
+        expect(vendingMachine.stockInventory("Sprite", 1.2)).toMatch("?");
+    });
 })
